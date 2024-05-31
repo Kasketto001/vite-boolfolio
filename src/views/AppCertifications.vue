@@ -1,6 +1,6 @@
 <template>
     <div>
-
+        <h1>Certification</h1>
     </div>
 </template>
 
