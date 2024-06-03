@@ -4,7 +4,7 @@ import AppAbout from './views/AppAbout.vue';
 import AppSkills from './views/AppSkills.vue';
 import AppCertifications from './views/AppCertifications.vue';
 import AppContacts from './views/AppContacts.vue';
-
+import AppProject from './views/AppProject.vue';
 const routes = [
   {
     path: '/', 
@@ -30,6 +30,12 @@ const routes = [
     path: '/contacts', 
     name: 'AppContacts', 
     component: AppContacts 
+  },
+ // Single Show
+  {
+    path: '/project/:id', 
+    name: 'AppProject', 
+    component: AppProject 
   }
 ];
 

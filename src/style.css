@@ -66,15 +66,14 @@ body {
   color: #ff6b6b;
 }
 
-
 .display-10 {
   font-size: 80px;
 }
 
 .text-yellow {
-
   color: rgb(255, 236, 131);
 }
+
 .image {
   background-image: url("https://i.ibb.co/8jBgHzF/MG-4766-2-2.jpg");
   background-size: contain;
@@ -85,18 +84,21 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
-  .on-hover-contents {
-      display: none;
-  }
 }
+
+.image .on-hover-contents {
+  display: none;
+}
+
 .image:hover {
   transition: 0.5s;
   background: none;
-  background-color:rgb(255, 236, 131);
-  .on-hover-contents{
-      display:block;
-      color:#121212;
-  }
+  background-color: rgb(255, 236, 131);
 }
+
+.image:hover .on-hover-contents {
+  display: block;
+  color: #121212;
+}
+
 

@@ -10,9 +10,9 @@
         </h1>
         </div>
         <div class="col">
-            <div class="image gap-3">
+            <div class="image">
                 <span class="on-hover-contents">but everybody calls me</span>
-                <img class="on-hover-contents" src="https://i.ibb.co/3hpjcLy/Group-161.png" width="300">
+                <img class="on-hover-contents" src="https://i.ibb.co/3hpjcLy/Group-161.png" height="100">
             </div>
         </div>
     </div>
